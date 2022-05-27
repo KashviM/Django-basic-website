@@ -12,10 +12,10 @@ from django.contrib import messages
 # Create your views here.
 def index(request):
     # return HttpResponse("This is Homepage")
-    context={
-          'variable':' HELLOOOO VARIABLE WORLD ',
-          'variable2':' HELLOOOO VARIABLE2 innnnnn WORLD '
-    }
+    # context={
+    #       'variable':' HELLOOOO VARIABLE WORLD ',
+    #       'variable2':' HELLOOOO VARIABLE2 innnnnn WORLD '
+    # }
     # messages.success(request,'this is test message')
     return render(request,'index.html',context)
 
